@@ -117,13 +117,11 @@ Unlock the bootloader to allow flashing the OS and firmware:
 fastboot flashing unlock
 ```
 
-The command needs to be confirmed on the device and will wipe all data. Use one of the volume buttons to switch the selection to accepting it and the power button to confirm.
-!!! note Note
-    After Unlocking the bootloader make sure that `Camera2 API` is still enabled.
+The command needs to be confirmed on the device and will wipe all data. Use one of the volume buttons to switch the selection to accepting it and the power button to confirm. After Unlocking the bootloader make sure that `Camera2 API` is still enabled.
 
 ## Installing a custom recovery using fastboot
 
-Download a custom recovery from link: [TWRP](https://drive.google.com/drive/folders/1a8GPif-abIBVcknYVDszbRcKsbO-9RLT?usp=share_link), [OrangeFox](https://drive.google.com/drive/folders/18WXmdBDTCRQDoPPnqzoWNnHSRfL9W7RK?usp=share_link)
+Download a custom recovery from link: [TWRP Official](https://dl.twrp.me/RMX1801/), [TWRP Unofficial](https://github.com/Irawans-Android-Lab/twrp_device_realme_RMX1801/releases)
 Flash a recovery on your device by typing (replace ``<recovery_filename>`` with the actual filename):
 
 ```powershell
@@ -210,12 +208,10 @@ This list, which is sorted by when it was most recently updated, includes only p
 
 ## Links
 
-- [SDK Platform Tools](https://developer.android.com/studio/releases/platform-tools)
-- [USB Driver](https://androidfilehost.com/?fid=6006931924117944052)
 - [Firmware](https://github.com/sb6596/firmware_files_RMX1801/releases)
+- [realme 2 Pero forever](https://t.me/sujitwork)
+- [realme 2 Pro (RMX1801) Development](https://github.com/RMX1801)
+- [realme 2 Pro | News & Updates](https://t.me/rm2pro_updates)
+- [realme 2 Pro | R2X2](https://t.me/realme2proXDA)
 - [realme UI Decrypted/Encrypted](https://docs.google.com/spreadsheets/d/13HbRttDfsdwge9GNc6cuAzDwGM7CwYb9mb84b2O9zK4)
-- [Files on Telegram](https://t.me/realme2pro)
-- [Realme 2 Pro | News & Updates](https://t.me/rm2pro_updates)
-- [Realme 2 Pro | R2X2](https://t.me/realme2proXDA)
-- [Realme 2 Pero forever](https://t.me/sujitwork)
-- <https://github.com/RMX1801>
+- [SDK Platform Tools](https://developer.android.com/studio/releases/platform-tools)
