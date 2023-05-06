@@ -1,55 +1,59 @@
-# Realme 2 Pro (RMX1801)
+# realme 2 Pro (RMX1801)
 
-This is a guide on installing CustomOS on the [Realme 2 Pro](https://www.gsmarena.com/realme_2_pro-9345.php). We strongly recommend following these instructions. This guide has a lot of collaborative effort put into covering all of the edge cases and is regularly tested by many people on each supported OS.
+This is a guide on installing CustomOS on the [realme 2 Pro](https://www.realme.com/in/realme2-pro/specs). We strongly recommend following these instructions. This guide has a lot of collaborative effort put into covering all of the edge cases and is regularly tested by many people on each supported OS.
 
 ## Prerequisites
 
 You should have at least 2GB of free memory available and 8GB of free storage space.
+
 Standards compliance requires an Intel processor and USB-A 2.0, AMD Ryzen and USB-A 3.0 are problematic.
+
 You need a USB cable for attaching the device to a laptop or desktop. Whenever possible, use the high quality standards compliant USB-Micro 2.0 to USB-A cable packaged with the device. You should avoid using a USB hub such as the front panel on a desktop computer case. Connect directly to a rear port on a desktop or the ports on a laptop. Many widely distributed USB cables and hubs are broken and are the most common source of issues for installing OS.
 Installing from an OS in a virtual machine is not recommended. USB passthrough is often not reliable. To rule out these problems, install from an OS running on bare metal. Virtual machines are also often configured to have overly limited memory and storage space.
-Officially supported operating systems for the CLI install method:
+
+Officially supported operating systems for the installation method:
 
 - Windows 10
 - Windows 11
 
 Make sure your operating system is up-to-date before proceeding.
+
 It's best practice to update the device before installing CustomOS to have the latest firmware for connecting the phone to the computer and performing the early flashing process.
 
 ## Table of contents
 
- * [Enabling Developer options](#enabling-developer-options)
-   + [OEM unlocking](#enabling-oem-unlocking)
-   + [Camera2 API](#enabling-camera2-api)
- * [Opening terminal](#opening-terminal)
- * [Standalone platform-tools](#standalone-platform-tools)
- * [Checking fastboot version](#checking-fastboot-version)
- * [Booting into the bootloader interface](#booting-into-the-bootloader-interface)
- * [Connecting the phone](#connecting-the-phone)
- * [Unlocking the bootloader](#unlocking-the-bootloader)
- * [Installing a custom recovery using fastboot](#installing-a-custom-recovery-using-fastboot)
- * [Installing CustomOS from recovery](#installing-customos-from-recovery)
- * [SafetyNet and Play Integrity API](#safetynet-and-play-integrity-api)
- * [Gapps & Vanilla Builds](#gapps--vanilla-builds)
-   + [GApps Build](#gapps-build)
-   + [Vanilla Build](#vanilla-build)
- * [Google apps](#google-apps)
-   + [MindTheGApps](#mindthegapps)
-   + [NikGApps](#nikgapps)
- * [CustomOS Lists](#customos-lists)
- * [Post-installation Notes for CustomOS](#post-installation-notes-for-customos)
- * [Links](#links)
+- [Enabling Developer options](#enabling-developer-options)
+  - [OEM unlocking](#enabling-oem-unlocking)
+  - [Camera2 API](#enabling-camera2-api)
+- [Opening terminal](#opening-terminal)
+- [Standalone platform-tools](#standalone-platform-tools)
+- [Checking fastboot version](#checking-fastboot-version)
+- [Booting into the bootloader interface](#booting-into-the-bootloader-interface)
+- [Connecting the phone](#connecting-the-phone)
+- [Unlocking the bootloader](#unlocking-the-bootloader)
+- [Installing a custom recovery using fastboot](#installing-a-custom-recovery-using-fastboot)
+- [Installing CustomOS from recovery](#installing-customos-from-recovery)
+- [SafetyNet and Play Integrity API](#safetynet-and-play-integrity-api)
+- [Gapps & Vanilla Builds](#gapps--vanilla-builds)
+  - [GApps Build](#gapps-build)
+  - [Vanilla Build](#vanilla-build)
+- [Google apps](#google-apps)
+  - [MindTheGApps](#mindthegapps)
+  - [NikGApps](#nikgapps)
+- [CustomOS Lists](#customos-lists)
+- [Post-installation Notes for CustomOS](#post-installation-notes-for-customos)
+- [Links](#links)
 
 ## Enabling Developer options
 
 Enable the developer options menu by going to Settings ➔ About phone ➔ Verison and repeatedly pressing the build number menu entry until developer mode is enabled.
 
-## Enabling OEM unlocking
+### Enabling OEM unlocking
 
 OEM unlocking needs to be enabled from within the realme UI.
 Next, go to Settings ➔ Additional Settings ➔ Developer options and toggle on the `OEM unlocking` setting.
 
-## Enabling Camera2 API
+### Enabling Camera2 API
 
 Camera2 API unlocking needs to be enabled from within the realme UI.
 Next, go to Settings ➔ System ➔ Developer options in Apps section toggle on the `Camera HAL3` setting.
@@ -121,7 +125,11 @@ The command needs to be confirmed on the device and will wipe all data. Use one 
 
 ## Installing a custom recovery using fastboot
 
-Download a custom recovery from link: [TWRP Official](https://dl.twrp.me/RMX1801/), [TWRP Unofficial](https://github.com/Irawans-Android-Lab/twrp_device_realme_RMX1801/releases)
+Download a custom recovery from link:
+
+- [TWRP Official (outdated)](https://dl.twrp.me/RMX1801/)
+- [TWRP Unofficial (recommend)](https://github.com/Irawans-Android-Lab/twrp_device_realme_RMX1801/releases)
+
 Flash a recovery on your device by typing (replace ``<recovery_filename>`` with the actual filename):
 
 ```powershell
@@ -169,10 +177,8 @@ GApps Build came with pre installed Google Apps and services such as the Play St
 Vanilla Build are mostly for the people that don’t want Google services to be on their tails. And Vanilla can be customized by the user however they would like, it can be used as FOSS, It can be used with GApps. Most users that want FOSS software are using Vanilla ROMs such as LineageOS, GrapheneOS, and AOSP in general.
 
 ## Google apps
->
-> Google apps should be installed via recovery immediately after installing CustomOS.
-Like the Android Open Source Project, Vanilla Build doesn't include Google apps and services.
-If you use a larger package, we can not guarantee that everything will function on your device, as in many of these cases our included apps are overwritten in favor of the Google App equivalents. If your device states that there is not enough space on any specific partition during install, you will need to use an even smaller package instead.
+
+Google apps should be installed via recovery immediately after installing CustomOS. Like the Android Open Source Project, Vanilla Build doesn't include Google apps and services. If you use a larger package, we can not guarantee that everything will function on your device, as in many of these cases our included apps are overwritten in favor of the Google App equivalents. If your device states that there is not enough space on any specific partition during install, you will need to use an even smaller package instead.
 
 ### MindTheGApps
 
