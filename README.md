@@ -195,9 +195,9 @@ This list, which is sorted by when it was most recently updated, includes only p
 | Name      | Version | SafetyNet and Play Integrity API | Official Support | Last Updated (YYYY/MM/DD) | Managed By | Download Link |
 | ----------- | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
 | [NusantaraProject](https://nusantararom.org/device/rmx1801/) | Android 13 | Pass | `Active` | 2023/04/18 | Irawan | [Plings](https://www.pling.com/p/1422375/) |
-| [ArrowOS](https://www.arrowos.net/) _OPPO ➔ RMX1801_ | Android 13 | Pass | `Dropped` | 2023/01/10 | Baibhab | [Telegram](https://t.me/realme2pro/37/40) |
+| [ArrowOS](https://www.arrowos.net/) _OPPO ➔ RMX1801_ | Android 13 | Pass | `Dropped` | 2023/01/10 | Baibhab | [Github](https://github.com/semisoft0072/RMX1801/releases/tag/ArrowOS) |
 | [StagOS](https://stag-os.org/) | Android 12.1 | Pass | `Dropped` | 2022/08/31 | Baibhab | [SOURCEFORGE](https://sourceforge.net/projects/stagos-12/files/RMX1801/) |
-| [LineageOS 17.1](https://wiki.lineageos.org/devices/RMX1801/) | Android 10 | Fail | `Dropped` | 2022/02/09 | sb6596 | [Telegram](https://t.me/realme2pro/23/29) |
+| [LineageOS 17.1](https://wiki.lineageos.org/devices/RMX1801/) | Android 10 | Fail | `Dropped` | 2022/02/09 | sb6596 | [Github](https://github.com/semisoft0072/RMX1801/releases/tag/LineageOS) |
 | [AwakenOS](https://github.com/Project-Awaken) | Android 12 | Pass | `Dropped` | 2022/01/26 | Ad1tyaS1ngh | [SOURCEFORGE](https://sourceforge.net/projects/project-awaken/files/r2p/) |
 | [Project Elixir](https://projectelixiros.com/device/RMX1801) | Android 12 | Pass | `Dropped` | 2022/01/24 | Abhishek | [Plings](https://www.pling.com/p/1628787/) |
 | [PixelPlusUI](https://ppui.site/device/Realme2Pro) | Android 12 | Pass | `Dropped` | 2022/01/22 | Abhishek | [Plings](https://www.pling.com/p/1523104/) |
