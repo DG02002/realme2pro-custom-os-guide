@@ -6,7 +6,7 @@ This is a guide on installing CustomOS on the [realme 2 Pro](https://www.realme.
 
 You should have at least 2GB of free memory available and 8GB of free storage space.
 
-Standards compliance requires an Intel processor and USB-A 2.0, AMD Ryzen and USB-A 3.0 are problematic.
+> **Note**: Standards compliance requires an Intel processor and USB-A 2.0, AMD Ryzen and USB-A 3.0 are problematic.
 
 You need a USB cable for attaching the device to a laptop or desktop. Whenever possible, use the high quality standards compliant USB-Micro 2.0 to USB-A cable packaged with the device. You should avoid using a USB hub such as the front panel on a desktop computer case. Connect directly to a rear port on a desktop or the ports on a laptop. Many widely distributed USB cables and hubs are broken and are the most common source of issues for installing OS.
 Installing from an OS in a virtual machine is not recommended. USB passthrough is often not reliable. To rule out these problems, install from an OS running on bare metal. Virtual machines are also often configured to have overly limited memory and storage space.
@@ -121,7 +121,8 @@ Unlock the bootloader to allow flashing the OS and firmware:
 fastboot flashing unlock
 ```
 
-The command needs to be confirmed on the device and will wipe all data. Use one of the volume buttons to switch the selection to accepting it and the power button to confirm. After Unlocking the bootloader make sure that `Camera2 API` is still enabled.
+The command needs to be confirmed on the device and will wipe all data. Use one of the volume buttons to switch the selection to accepting it and the power button to confirm. 
+> **Note**: After Unlocking the bootloader make sure that `Camera2 API` is still enabled.
 
 ## Installing a custom recovery using fastboot
 
