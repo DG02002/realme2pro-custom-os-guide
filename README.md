@@ -215,10 +215,11 @@ This list, which is sorted by when it was most recently updated, includes only p
 
 ## Links
 
-- [Firmware](https://github.com/sb6596/firmware_files_RMX1801/releases)
-- [realme 2 Pero forever](https://t.me/sujitwork)
+- [Firmwares](https://github.com/sb6596/firmware_files_RMX1801/releases)
+- [Kernels](https://docs.google.com/spreadsheets/d/18u4f6YGesApkaEZvOtvDjgmJ5f_Sr-M2gDTopmX45wo/edit?usp=sharing)
 - [realme 2 Pro (RMX1801) Development](https://github.com/RMX1801)
-- [realme 2 Pro | News & Updates](https://t.me/rm2pro_updates)
-- [realme 2 Pro | R2X2](https://t.me/realme2proXDA)
 - [realme UI Decrypted/Encrypted](https://docs.google.com/spreadsheets/d/13HbRttDfsdwge9GNc6cuAzDwGM7CwYb9mb84b2O9zK4)
 - [SDK Platform Tools](https://developer.android.com/studio/releases/platform-tools)
+- [Telegram channel (News & Updates)](https://t.me/rm2pro_updates)
+- [Telegram group (R2X2)](https://t.me/realme2proXDA)
+- [Telegram group (realme 2 Pero forever)](https://t.me/sujitwork)
