@@ -121,7 +121,7 @@ Unlock the bootloader to allow flashing the OS and firmware:
 fastboot flashing unlock
 ```
 
-The command needs to be confirmed on the device and will wipe all data. Use one of the volume buttons to switch the selection to accepting it and the power button to confirm. 
+The command needs to be confirmed on the device and will wipe all data. Use one of the volume buttons to switch the selection to accepting it and the power button to confirm.
 > **Note**: After Unlocking the bootloader make sure that `Camera2 API` is still enabled.
 
 ## Installing a custom recovery using fastboot
@@ -216,6 +216,7 @@ This list, which is sorted by when it was most recently updated, includes only p
 ## Links
 
 - [Firmwares](https://github.com/sb6596/firmware_files_RMX1801/releases)
+- [Google Camera](https://github.com/baibhab34/packages_apps_Gcam/)
 - [Kernels](https://docs.google.com/spreadsheets/d/18u4f6YGesApkaEZvOtvDjgmJ5f_Sr-M2gDTopmX45wo/edit?usp=sharing)
 - [realme 2 Pro (RMX1801) Development](https://github.com/RMX1801)
 - [realme UI Decrypted/Encrypted](https://docs.google.com/spreadsheets/d/13HbRttDfsdwge9GNc6cuAzDwGM7CwYb9mb84b2O9zK4)
